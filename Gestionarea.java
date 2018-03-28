@@ -1,15 +1,17 @@
-import java.util.Vector;
+package com.testing.home;
 
-public class Gestionarea {
+public class Gestionare {
+    private BackLayer backLayer;
 
-  public String codProdus;
+    public Gestionare(BackLayer backLayer){
+        this.backLayer = backLayer;
+    }
 
-    public Vector  myBackLayer;
+    public void addProdus(Produs produs){
+        backLayer.addProdus(produs);
+    }
 
-  public void addProdus() {
-  }
-
-  public void removeProdus() {
-  }
-
+    public void removeProdus(Produs produs){
+        backLayer.removeProdus(produs);
+    }
 }

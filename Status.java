@@ -1,14 +1,9 @@
-import java.util.Vector;
+package com.testing.home;
 
 public class Status {
+    private BackLayer backLayer;
 
-  public String codProdus;
-
-  public String status;
-
-    public Vector  myProdus;
-
-  public void updateStatus() {
-  }
-
+    public void updateStatus(Produs produs, String status){
+        backLayer.updateStatus(produs, status);
+    }
 }

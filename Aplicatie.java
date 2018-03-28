@@ -1,13 +1,10 @@
-import java.util.Vector;
+package com.testing.home;
 
-public class Aplicatie {
+public class Application {
 
-    public Vector  myBackLayer;
+    public static void main(String[] args) {
 
-  public void viewProduse() {
-  }
 
-  public void viewStatus() {
-  }
 
+    }
 }

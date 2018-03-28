@@ -1,14 +1,31 @@
-import java.util.Vector;
+package com.testing.home;
 
 public class Produs {
+    private String codProdus;
+    private String marca;
+    private String status;
 
-  public String codProdus;
+    public String getCodProdus() {
+        return codProdus;
+    }
 
-  public String marca;
+    public void setCodProdus(String codProdus) {
+        this.codProdus = codProdus;
+    }
 
-  public String status;
+    public String getMarca() {
+        return marca;
+    }
 
-    public Vector  myBackLayer;
-    public Vector  myStatus;
+    public void setMarca(String marca) {
+        this.marca = marca;
+    }
 
+    public String getStatus() {
+        return status;
+    }
+
+    public void setStatus(String status) {
+        this.status = status;
+    }
 }
