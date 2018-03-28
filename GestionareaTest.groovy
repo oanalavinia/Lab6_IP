@@ -1,0 +1,2 @@
+class GestionareaTest extends GroovyTestCase {
+}
